@@ -1,5 +1,7 @@
 # FastSpeech 2 - Pytorch Implementation
 
+## NOTE: This is not the original repo for this implemenation. I (John) have cloned this repo to understand how to optimize it and potentially modify it for specific cases.
+
 This is a Pytorch implementation of Microsoft's text-to-speech system [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This project is based on [xcmyz's implementation](https://github.com/xcmyz/FastSpeech) of FastSpeech. Feel free to use/modify the code. Any suggestion for improvement is appreciated.
 
 This repository contains only FastSpeech 2 but FastSpeech 2s so far. I will update it once I reproduce FastSpeech 2s, the end-to-end version of FastSpeech2, successfully.
