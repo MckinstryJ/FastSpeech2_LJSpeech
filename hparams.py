@@ -2,7 +2,7 @@ import os
 
 # Dataset
 dataset = "LJSpeech"
-data_path = "/home/ming/Data/Raw/LJSpeech-1.1"
+data_path = "./data/LJSpeech"
 #dataset = "Blizzard2013"
 #data_path = "./Blizzard-2013/train/segmented/"
 
@@ -85,7 +85,7 @@ weight_decay = 0.
 
 
 # Vocoder
-vocoder = 'melgan' # 'waveglow' or 'melgan'
+vocoder = 'waveglow' # 'waveglow' or 'melgan'
 
 
 # Log-scaled duration
