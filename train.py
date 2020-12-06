@@ -17,6 +17,12 @@ import hparams as hp
 import utils
 import audio as Audio
 
+'''
+    Notes:
+        - There are a few packages that have to be installed before train.py can be ran
+        - Once installed, an PermissionError shows up... will work on it on Sunday
+'''
+
 def main(args):
     torch.manual_seed(0)
 
